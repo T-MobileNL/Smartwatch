@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="showLoader"
+            type="boolean"/>
+
+        <variable
+            name="showMessage"
+            type="boolean"/>
+    </data>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.wearable.view.GridViewPager
+            android:visibility='@{showLoader|showMessage ? View.GONE : View.VISIBLE}'
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="nl.oberon.tmobile.watch.MainActivity"/>
+
+        <android.support.wearable.view.DotsPageIndicator
+            android:visibility='@{showLoader|showMessage ? View.GONE : View.VISIBLE}'
+            android:id="@+id/pageIndicator"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/point_1"
+            app:dotFadeWhenIdle="false"
+            app:dotColor="@color/light_grey"
+            app:dotShadowRadius="0dp"
+            app:dotColorSelected="@color/tmobile_pink"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <android.support.wearable.view.ProgressSpinner
+                android:id="@+id/spinner"
+                android:visibility='@{showLoader ? View.VISIBLE : View.GONE}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:color_sequence="@color/tmobile_pink"/>
+
+            <TextView
+                android:visibility='@{showMessage ? View.VISIBLE : View.GONE}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/point_2"
+                android:paddingRight="@dimen/point_2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/no_data_available"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</layout>

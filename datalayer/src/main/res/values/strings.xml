@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="no_wear_api">No wear device available, have you installed the Wear app?</string>
+
+</resources>

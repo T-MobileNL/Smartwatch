@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">T-Mobile</string>
+    <string name="no_data_available">Geen data beschikbaar, ben je ingelogd?</string>
+    <string name="unlimited_data">Internetbundel onbeperkt</string>
+</resources>

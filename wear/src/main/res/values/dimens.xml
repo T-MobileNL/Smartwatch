@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="point_2">16dp</dimen>
+    <dimen name="point_1">8dp</dimen>
+    <dimen name="point_5">40dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">T-Mobile</string>
+    <string name="login_button_text">Log in</string>
+    <string name="explanation_title">Log in My T‑Mobile to use this app.</string>
+    <string name="explanation_text">You will be directed to the browser \nto log in and will return afterwards.</string>
+
+    <string name="logout_button_text">Log out</string>
+    <string name="logged_in_title">You are logged in.</string>
+    <string name="logged_in_text">Have a look at your watch!</string>
+    <string name="syncing_data">Syncing data</string>
+    <string name="authenticating_title">Authenticating</string>
+    <string name="authenticating_text">Please wait…</string>
+    <string name="error_title">Error</string>
+</resources>

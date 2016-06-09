@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tmobile_pink">#e20074</color>
+    <color name="light_tmobile_pink">#FF378F</color>
+
+    <color name="usage_green">#5bbc4a</color>
+    <color name="usage_orange">#ff7d1e</color>
+    <color name="usage_red">#d00000</color>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Add your client key and app scheme here. Refer to the capi documentation for more info-->
+    <string name="oauth_permissions" translatable="false">oauth2/authorize?response_type=code&amp;client_id=%1$s&amp;scope=usage+weblogin&amp;mtmapp=1&amp;redirect_uri=APP_SCHEME://www.t-mobile.nl/appstartmtm&amp;autologin=1</string>
+    <string name="oauth_clientkey" translatable="false">YOUR_CLIENT_KEY_HERE</string>
+    <string name="oauth_host" translatable="false">https://m.t-mobile.nl/</string>
+    <string name="app_scheme" translatable="false">APP_SCHEME</string>
+    <string name="capi_host" translatable="false">https://capi.t-mobile.nl/</string>
+
+</resources>

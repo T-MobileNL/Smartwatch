@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">T-Mobile</string>
+    <string name="no_data_available">No data available, have you logged in?</string>
+    <string name="unlimited_data">Internetbundle unlimited</string>
+</resources>

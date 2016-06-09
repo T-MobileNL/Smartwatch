@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Watch</string>
+    <string name="authenticating_title">Authenticeren</string>
+    <string name="authenticating_text">Even geduld…</string>
+    <string name="explanation_text">Je wordt begeleid naar de\nbrowser om in te loggen en\nkomt daarna terug in de app.</string>
+    <string name="syncing_data">Data synchroniseren</string>
+    <string name="logout_button_text">Log uit</string>
+    <string name="login_button_text">Log in</string>
+    <string name="logged_in_title">Je bent ingelogd</string>
+    <string name="logged_in_text">Neem een kijkje op je smartwatch!</string>
+    <string name="explanation_title">Log in My T-Mobile om gebruik te maken van deze app.</string>
+</resources>
