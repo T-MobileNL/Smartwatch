@@ -7,6 +7,12 @@ The watch displays postpaid bundle data for customers with subscriptions. To use
 ### What is this repository for? ###
 
 This repository is provided as an example of a simple app using the T-Mobile CAPI.
+Https://capi.t-mobile.nl 
+
+### Legal and Disclaimer 
+To kick-off the t-Mobile NL API project we created the first building blocks to get development on its way.
+All Logo's and visuals used in this code are copyright of T-Mobile Netherlands, subsidary of Deutsche Telekom AG.
+You are free to use the code under the GNU GPLv3 but No rights can be derived from further distribution of this code by 3rd parties.
 
 ### How do I get set up? ###
 
@@ -37,3 +43,7 @@ The app is divided into 3 different modules:
 
 ### Differences in Util and Helper classes ###
 A helper class is only used in the app context while a utility class could be used in any app.
+
+
+### Legal and disclaimer
+This watch application has been developed and placed 
